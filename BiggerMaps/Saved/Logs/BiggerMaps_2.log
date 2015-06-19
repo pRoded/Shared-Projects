@@ -1,0 +1,1060 @@
+﻿[2015.06.18-04.47.05:539][  0]Log file open, 06/17/15 23:47:05
+[2015.06.18-04.47.05:539][  0]LogInit:Display: Running engine for game: BiggerMaps
+[2015.06.18-04.47.05:539][  0]LogInit:Display: RandInit(564000333) SRandInit(564000333).
+[2015.06.18-04.47.05:539][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.06.18-04.47.05:540][  0]LogStats: Stats thread started
+[2015.06.18-04.47.05:540][  0]LogInit: Version: 4.8.0-2579680+++depot+UE4-Releases+4.8
+[2015.06.18-04.47.05:540][  0]LogInit: API Version: 2579680
+[2015.06.18-04.47.05:540][  0]LogInit: Compiled (64-bit): Jun  8 2015 03:34:53
+[2015.06.18-04.47.05:540][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.06.18-04.47.05:540][  0]LogInit: Build Configuration: Development
+[2015.06.18-04.47.05:540][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.06.18-04.47.05:540][  0]LogInit: Command line: 
+[2015.06.18-04.47.05:540][  0]LogInit: Base directory: D:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.06.18-04.47.05:540][  0]LogInit: Rocket: 1
+[2015.06.18-04.47.05:565][  0]LogInit: Using libcurl 7.41.0
+[2015.06.18-04.47.05:565][  0]LogInit:  - built for x86_64-pc-win32
+[2015.06.18-04.47.05:565][  0]LogInit:  - supports SSL with WinSSL
+[2015.06.18-04.47.05:565][  0]LogInit:  - other features:
+[2015.06.18-04.47.05:565][  0]LogInit:      CURL_VERSION_SSL
+[2015.06.18-04.47.05:565][  0]LogInit:      CURL_VERSION_IPV6
+[2015.06.18-04.47.05:565][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.06.18-04.47.05:565][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.06.18-04.47.05:565][  0]LogInit:      CURL_VERSION_IDN
+[2015.06.18-04.47.05:565][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.06.18-04.47.05:565][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.06.18-04.47.05:565][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.06.18-04.47.05:565][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.06.18-04.47.05:565][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.06.18-04.47.05:599][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.06.18-04.47.05:645][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.06.18-04.47.05:666][  0]LogInit: Object subsystem initialized
+[2015.06.18-04.47.05:670][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.06.18-04.47.05:670][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Unreal Projects/BiggerMaps/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.18-04.47.05:670][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.06.18-04.47.05:670][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Unreal Projects/BiggerMaps/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.18-04.47.05:670][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.06.18-04.47.05:672][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Unreal Projects/BiggerMaps/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.18-04.47.05:673][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.18-04.47.05:673][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.06.18-04.47.05:693][  0]LogInit: Computer: DOOMSDAY
+[2015.06.18-04.47.05:693][  0]LogInit: User: Austin
+[2015.06.18-04.47.05:693][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.06.18-04.47.05:693][  0]LogInit: High frequency timer resolution =3.030330 MHz
+[2015.06.18-04.47.05:693][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2015.06.18-04.47.05:693][  0]LogMemory: Platform Memory Stats for Windows
+[2015.06.18-04.47.05:693][  0]LogMemory: Process Physical Memory: 47.76 MB used, 47.76 MB peak
+[2015.06.18-04.47.05:693][  0]LogMemory: Process Virtual Memory: 24.16 MB used, 24.16 MB peak
+[2015.06.18-04.47.05:693][  0]LogMemory: Physical Memory: 9914.51 MB used, 12249.06 MB total
+[2015.06.18-04.47.05:693][  0]LogMemory: Virtual Memory: 296.50 MB used, 134217728.00 MB total
+[2015.06.18-04.47.05:733][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.06.18-04.47.06:293][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (D:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (D:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.06.18-04.47.07:415][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6800 Series (Feature Level 11_0)
+[2015.06.18-04.47.07:415][  0]LogD3D11RHI: Adapter has 1011MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 2 output[s]
+[2015.06.18-04.47.07:418][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.06.18-04.47.07:418][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.06.18-04.47.07:418][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.06.18-04.47.07:427][  0]LogRHI: Texture pool is 708 MB (70% of 1011 MB)
+[2015.06.18-04.47.07:446][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.06.18-04.47.07:463][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.06.18-04.47.10:236][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.06.18-04.47.10:277][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.06.18-04.47.10:315][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.06.18-04.47.10:359][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.06.18-04.47.10:402][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.06.18-04.47.10:433][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.06.18-04.47.10:466][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.06.18-04.47.10:524][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.06.18-04.47.10:558][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.06.18-04.47.10:602][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.06.18-04.47.10:643][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.06.18-04.47.10:678][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.06.18-04.47.10:818][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.06.18-04.47.10:846][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.06.18-04.47.10:884][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.06.18-04.47.10:936][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.06.18-04.47.10:936][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.18-04.47.11:557][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.06.18-04.47.11:841][  0]LogDerivedDataCache: Loaded boot cache 0.28s 53MB C:/Users/Austin/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.06.18-04.47.11:841][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Austin/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.06.18-04.47.11:841][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Unreal Projects/BiggerMaps/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.06.18-04.47.11:841][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.06.18-04.47.11:842][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Unreal Projects/BiggerMaps/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.06.18-04.47.11:842][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.06.18-04.47.12:214][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.06.18-04.47.12:227][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Austin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.06.18-04.47.13:014][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.18-04.47.13:306][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.06.18-04.47.13:307][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.06.18-04.47.13:395][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.06.18-04.47.13:395][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.06.18-04.47.14:448][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.06.18-04.47.20:088][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2015.06.18-04.47.20:118][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.06.18-04.47.20:159][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.06.18-04.47.21:120][  0]SourceControl: Info Source control is disabled
+[2015.06.18-04.47.21:130][  0]SourceControl: Info Source control is disabled
+[2015.06.18-04.47.21:183][  0]SourceControl: Info Source control is disabled
+[2015.06.18-04.47.21:217][  0]SourceControl: Info Source control is disabled
+[2015.06.18-04.47.22:262][  0]LogObj: 26440 objects as part of root set at end of initial load.
+[2015.06.18-04.47.22:263][  0]LogUObjectAllocator: 5438856 out of 0 bytes used by permanent object pool.
+[2015.06.18-04.47.22:611][  0]LogEngine: Initializing Engine...
+[2015.06.18-04.47.22:619][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.06.18-04.47.22:648][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 108
+[2015.06.18-04.47.23:290][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.06.18-04.47.23:307][  0]LogInit: XAudio2 using 'Speakers (C-Media PCI Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.06.18-04.47.23:334][  0]LogInit: FAudioDevice initialized.
+[2015.06.18-04.47.23:423][  0]LogDerivedDataCache: Saved boot cache 0.09s 53MB C:/Users/Austin/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.06.18-04.47.23:448][  0]LogInit: Texture streaming: Disabled
+[2015.06.18-04.47.23:547][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.06.18-04.47.23:547][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.0-2579680+++depot+UE4-Releases+4.8
+[2015.06.18-04.47.23:547][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 519084724740dda3b7f63ca7a359850f|c6aa7279e153481db5acecb7e00916cf|c5a11cdf-dcde-41ca-949f-90f749409fcd
+[2015.06.18-04.47.23:547][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.06.18-04.47.23:643][  0]LogInit: Transaction tracking system initialized
+[2015.06.18-04.47.24:068][  0]BlueprintLog: New page: Editor Load
+[2015.06.18-04.47.26:010][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.06.18-04.47.26:010][  0]LogConsoleResponse:Display: 
+[2015.06.18-04.47.26:357][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.06.18-04.47.26:941][  0]SourceControl: Info Source control is disabled
+[2015.06.18-04.47.26:942][  0]Cmd: MAP LOAD FILE="../../../../../../Unreal Projects/BiggerMaps/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.18-04.47.26:943][  0]LightingResults: New page: Lighting Build
+[2015.06.18-04.47.26:978][  0]MapCheck: New page: Map Check
+[2015.06.18-04.47.26:978][  0]LightingResults: New page: Lighting Build
+[2015.06.18-04.47.27:018][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F0C7BA8E0
+[2015.06.18-04.47.40:327][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.06.18-04.47.40:348][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.18-04.47.47:496][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.06.18-04.47.47:621][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 124.586ms to complete.
+[2015.06.18-04.47.47:621][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 20.680
+[2015.06.18-04.47.47:793][  0]LogCollectionManager: Loaded 0 collections in 0.008603 seconds
+[2015.06.18-04.47.47:818][  0]LogContentBrowser: Native class hierarchy populated in 0.0253 seconds. Added 1807 classes and 307 folders.
+[2015.06.18-04.47.47:957][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.06.18-04.47.48:025][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.06.18-04.47.48:150][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.06.18-04.47.48:237][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.06.18-04.47.48:244][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.06.18-04.47.48:268][  0]LogLoad: Full Startup: 46.71 seconds (BP compile: 1.56 seconds)
+[2015.06.18-04.47.48:719][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.06.18-04.47.48:845][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.06.18-04.47.49:349][  0]LogRenderer: Reallocating scene render targets to support 952x1032 (Frame:2).
+[2015.06.18-04.47.55:426][ 17]LogAssetRegistry: Asset discovery search completed in 35.3492 seconds
+[2015.06.18-04.48.08:169][626]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2015.06.18-04.48.14:366][834]Cmd: MAP LOAD FILE="../../../../../../Unreal Projects/BiggerMaps/Content/mp_shipment.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.18-04.48.14:441][834]LightingResults: New page: Lighting Build
+[2015.06.18-04.48.14:523][834]LoadErrors: New page: Loading map: mp_shipment.umap
+[2015.06.18-04.48.14:563][834]MapCheck: New page: Map Check
+[2015.06.18-04.48.14:563][834]LightingResults: New page: Lighting Build
+[2015.06.18-04.48.14:595][834]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F00F2D440
+[2015.06.18-04.48.14:842][834]LogAIModule: Creating AISystem for world mp_shipment
+[2015.06.18-04.48.14:868][834]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.18-04.48.14:986][834]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.06.18-04.48.15:086][834]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 98.816ms to complete.
+[2015.06.18-04.48.15:086][834]LogFileHelpers: Loading map 'mp_shipment' took 0.722
+[2015.06.18-04.48.30:318][482]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.18-04.48.30:440][482]PIE: New page: PIE session: mp_shipment (Jun 17, 2015, 6:48:30 PM)
+[2015.06.18-04.48.30:440][482]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_mp_shipment
+[2015.06.18-04.48.30:470][482]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029196s)
+[2015.06.18-04.48.30:473][482]LogAIModule: Creating AISystem for world mp_shipment
+[2015.06.18-04.48.30:474][482]LogPlayLevel: PIE: World Init took: (0.004296s)
+[2015.06.18-04.48.30:474][482]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/mp_shipment.mp_shipment to /Game/UEDPIE_0_mp_shipment.mp_shipment (0.033875s)
+[2015.06.18-04.48.30:534][482]LogInit: XAudio2 using 'Speakers (C-Media PCI Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.06.18-04.48.30:548][482]LogInit: FAudioDevice initialized.
+[2015.06.18-04.48.30:915][482]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.18-04.48.30:926][482]LogWorld: Bringing World /Game/UEDPIE_0_mp_shipment.mp_shipment up for play (max tick rate 0) at 2015.06.17-23.48.30
+[2015.06.18-04.48.30:926][482]LogActor:Warning: GameSession /Game/UEDPIE_0_mp_shipment.mp_shipment:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.18-04.48.30:927][482]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_mp_shipment.mp_shipment:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.18-04.48.30:929][482]LogWorld: Bringing up level for play took: 0.010722
+[2015.06.18-04.48.30:935][482]PIE: Info Play in editor start time for /Game/UEDPIE_0_mp_shipment 1.457
+[2015.06.18-04.51.13:579][378]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F01FE6DE0
+[2015.06.18-04.52.01:676][286]Cmd: TRANSACTION UNDO
+[2015.06.18-04.52.01:676][286]LogEditorTransaction: Undo Create Actors
+[2015.06.18-04.52.01:742][286]LogActorComponent: ~FComponentReregisterContext: (/Game/mp_shipment.mp_shipment:PersistentLevel.ModelComponent_21181) Component already registered.
+[2015.06.18-04.52.25:437][987]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.18-04.52.25:438][987]PIE: New page: PIE session: mp_shipment (Jun 17, 2015, 6:52:25 PM)
+[2015.06.18-04.52.25:438][987]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_mp_shipment
+[2015.06.18-04.52.25:462][987]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023983s)
+[2015.06.18-04.52.25:463][987]LogAIModule: Creating AISystem for world mp_shipment
+[2015.06.18-04.52.25:464][987]LogPlayLevel: PIE: World Init took: (0.001988s)
+[2015.06.18-04.52.25:465][987]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/mp_shipment.mp_shipment to /Game/UEDPIE_0_mp_shipment.mp_shipment (0.026363s)
+[2015.06.18-04.52.25:525][987]LogInit: XAudio2 using 'Speakers (C-Media PCI Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.06.18-04.52.25:542][987]LogInit: FAudioDevice initialized.
+[2015.06.18-04.52.25:599][987]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.18-04.52.25:611][987]LogWorld: Bringing World /Game/UEDPIE_0_mp_shipment.mp_shipment up for play (max tick rate 0) at 2015.06.17-23.52.25
+[2015.06.18-04.52.25:611][987]LogActor:Warning: GameSession /Game/UEDPIE_0_mp_shipment.mp_shipment:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.18-04.52.25:612][987]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_mp_shipment.mp_shipment:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.18-04.52.25:614][987]LogWorld: Bringing up level for play took: 0.012306
+[2015.06.18-04.52.25:620][987]PIE: Info Play in editor start time for /Game/UEDPIE_0_mp_shipment 0.143
+[2015.06.18-04.52.52:722][452]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F7E5A0F40
+[2015.06.18-04.54.14:041][615]Cmd: SELECT NONE
+[2015.06.18-04.54.15:718][681]Cmd: SELECT NONE
+[2015.06.18-04.56.30:996][299]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.18-04.56.30:996][299]PIE: New page: PIE session: mp_shipment (Jun 17, 2015, 6:56:30 PM)
+[2015.06.18-04.56.30:997][299]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_mp_shipment
+[2015.06.18-04.56.31:023][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025871s)
+[2015.06.18-04.56.31:024][299]LogAIModule: Creating AISystem for world mp_shipment
+[2015.06.18-04.56.31:024][299]LogPlayLevel: PIE: World Init took: (0.001852s)
+[2015.06.18-04.56.31:025][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/mp_shipment.mp_shipment to /Game/UEDPIE_0_mp_shipment.mp_shipment (0.027993s)
+[2015.06.18-04.56.31:114][299]LogInit: XAudio2 using 'Speakers (C-Media PCI Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.06.18-04.56.31:120][299]LogInit: FAudioDevice initialized.
+[2015.06.18-04.56.31:178][299]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.18-04.56.31:196][299]LogWorld: Bringing World /Game/UEDPIE_0_mp_shipment.mp_shipment up for play (max tick rate 0) at 2015.06.17-23.56.31
+[2015.06.18-04.56.31:197][299]LogActor:Warning: GameSession /Game/UEDPIE_0_mp_shipment.mp_shipment:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.18-04.56.31:198][299]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_mp_shipment.mp_shipment:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.18-04.56.31:200][299]LogWorld: Bringing up level for play took: 0.019431
+[2015.06.18-04.56.31:212][299]PIE: Info Play in editor start time for /Game/UEDPIE_0_mp_shipment -0.266
+[2015.06.18-04.56.57:228][365]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F7E1C9EE0
+[2015.06.18-05.01.50:936][476]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mp_shipment" FILE="../../../../../../Unreal Projects/BiggerMaps/Saved/Autosaves/Game/mp_shipment_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.06.18-05.01.51:148][476]LogSavePackage: Save=172.900635ms
+[2015.06.18-05.01.51:148][476]LogSavePackage: Moving '../../../../../../Unreal Projects/BiggerMaps/Saved/mp_shipment_Auto16B2EB1CB49CE03746FD5E1832A4A8EE8.tmp' to '../../../../../../Unreal Projects/BiggerMaps/Saved/Autosaves/Game/mp_shipment_Auto1.umap'
+[2015.06.18-05.01.51:152][476]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/mp_shipment' took 0.334
+[2015.06.18-05.01.51:152][476]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.334
+[2015.06.18-05.20.51:422][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mp_shipment" FILE="../../../../../../Unreal Projects/BiggerMaps/Saved/Autosaves/Game/mp_shipment_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.06.18-05.20.51:746][686]LogSavePackage: Save=302.844238ms
+[2015.06.18-05.20.51:746][686]LogSavePackage: Moving '../../../../../../Unreal Projects/BiggerMaps/Saved/mp_shipment_Auto2F0D7B1674B9F10A761AE9EBEDBF26875.tmp' to '../../../../../../Unreal Projects/BiggerMaps/Saved/Autosaves/Game/mp_shipment_Auto2.umap'
+[2015.06.18-05.20.51:749][686]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/mp_shipment' took 0.466
+[2015.06.18-05.20.51:749][686]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.466
+[2015.06.18-05.21.08:845][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mp_shipment" FILE="../../../../../../Unreal Projects/BiggerMaps/Content/mp_shipment.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.06.18-05.21.09:070][242]LogSavePackage: Save=141.044052ms
+[2015.06.18-05.21.09:070][242]LogSavePackage: Moving '../../../../../../Unreal Projects/BiggerMaps/Saved/mp_shipment1DDB9EC145189C47C59308BE1A448736.tmp' to '../../../../../../Unreal Projects/BiggerMaps/Content/mp_shipment.umap'
+[2015.06.18-05.21.09:185][242]LogFileHelpers: Saving map 'mp_shipment' took 0.430
+[2015.06.18-05.35.36:995][163]Cmd: stat fps
+[2015.06.18-05.36.44:907][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mp_shipment" FILE="../../../../../../Unreal Projects/BiggerMaps/Saved/Autosaves/Game/mp_shipment_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.06.18-05.36.45:461][ 79]LogSavePackage: Save=496.163116ms
+[2015.06.18-05.36.45:461][ 79]LogSavePackage: Moving '../../../../../../Unreal Projects/BiggerMaps/Saved/mp_shipment_Auto362F2F9C84F73AB081359A1AC2BF835E6.tmp' to '../../../../../../Unreal Projects/BiggerMaps/Saved/Autosaves/Game/mp_shipment_Auto3.umap'
+[2015.06.18-05.36.45:467][ 79]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/mp_shipment' took 0.838
+[2015.06.18-05.36.45:469][ 79]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.838
+[2015.06.18-05.49.58:859][769]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.06.18-05.50.02:805][929]Cmd: TRANSACTION UNDO
+[2015.06.18-05.50.02:805][929]LogEditorTransaction: Undo Clicking on Actors
+[2015.06.18-05.50.03:782][959]Cmd: TRANSACTION UNDO
+[2015.06.18-05.50.03:782][959]LogEditorTransaction: Undo Set Material
+[2015.06.18-05.50.05:188][  8]Cmd: TRANSACTION UNDO
+[2015.06.18-05.50.05:188][  8]LogEditorTransaction: Undo Create Actors
+[2015.06.18-05.50.05:281][  8]LogActorComponent: ~FComponentReregisterContext: (/Game/mp_shipment.mp_shipment:PersistentLevel.ModelComponent_1522) Component already registered.
+[2015.06.18-05.50.08:102][100]Cmd: TRANSACTION UNDO
+[2015.06.18-05.50.08:102][100]LogEditorTransaction: Undo Create Actors
+[2015.06.18-05.50.08:169][100]LogActorComponent: ~FComponentReregisterContext: (/Game/mp_shipment.mp_shipment:PersistentLevel.ModelComponent_1522) Component already registered.
+[2015.06.18-05.50.20:527][458]Cmd: DUPLICATE
+[2015.06.18-05.50.20:527][458]Cmd: ACTOR DUPLICATE
+[2015.06.18-05.50.23:701][492]Cmd: DUPLICATE
+[2015.06.18-05.50.23:701][492]Cmd: ACTOR DUPLICATE
+[2015.06.18-05.50.31:460][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mp_shipment" FILE="../../../../../../Unreal Projects/BiggerMaps/Content/mp_shipment.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.06.18-05.50.31:872][492]LogSavePackage: Save=224.364670ms
+[2015.06.18-05.50.31:872][492]LogSavePackage: Moving '../../../../../../Unreal Projects/BiggerMaps/Saved/mp_shipment221B4FB248870E7EDD39F180C425B2FC.tmp' to '../../../../../../Unreal Projects/BiggerMaps/Content/mp_shipment.umap'
+[2015.06.18-05.50.32:041][492]LogFileHelpers: Saving map 'mp_shipment' took 0.691
+[2015.06.18-05.50.48:167][999]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.51.00:186][412]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.18-05.51.00:187][412]PIE: New page: PIE session: mp_shipment (Jun 17, 2015, 7:51:00 PM)
+[2015.06.18-05.51.00:187][412]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_mp_shipment
+[2015.06.18-05.51.00:237][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049807s)
+[2015.06.18-05.51.00:238][412]LogAIModule: Creating AISystem for world mp_shipment
+[2015.06.18-05.51.00:239][412]LogPlayLevel: PIE: World Init took: (0.001947s)
+[2015.06.18-05.51.00:239][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/mp_shipment.mp_shipment to /Game/UEDPIE_0_mp_shipment.mp_shipment (0.052067s)
+[2015.06.18-05.51.00:332][412]LogInit: XAudio2 using 'Speakers (C-Media PCI Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.06.18-05.51.00:340][412]LogInit: FAudioDevice initialized.
+[2015.06.18-05.51.00:393][412]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.18-05.51.00:417][412]LogWorld: Bringing World /Game/UEDPIE_0_mp_shipment.mp_shipment up for play (max tick rate 0) at 2015.06.18-00.51.00
+[2015.06.18-05.51.00:417][412]LogActor:Warning: GameSession /Game/UEDPIE_0_mp_shipment.mp_shipment:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.18-05.51.00:418][412]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_mp_shipment.mp_shipment:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.18-05.51.00:422][412]LogWorld: Bringing up level for play took: 0.023718
+[2015.06.18-05.51.00:432][412]PIE: Info Play in editor start time for /Game/UEDPIE_0_mp_shipment 0.954
+[2015.06.18-05.51.26:355][489]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F17D7B420
+[2015.06.18-05.51.47:648][195]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.52.23:931][398]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.52.29:532][552]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.52.34:983][695]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.52.38:438][795]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.52.47:884][ 64]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.53.31:591][830]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.53.36:312][980]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.53.43:124][195]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.53.52:373][468]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.53.55:843][570]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.54.16:232][253]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.54.18:222][317]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.54.40:333][107]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.54.46:561][298]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.54.48:425][353]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.54.50:603][418]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.54.52:793][486]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.54.59:455][701]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.55.08:582][972]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.55.10:560][ 28]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.55.17:840][239]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.56.28:353][375]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.56.34:260][537]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.56.36:031][590]Cmd: POLY SELECT ADJACENT ALL
+[2015.06.18-05.57.52:601][ 71]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.18-05.57.52:601][ 71]PIE: New page: PIE session: mp_shipment (Jun 17, 2015, 7:57:52 PM)
+[2015.06.18-05.57.52:602][ 71]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_mp_shipment
+[2015.06.18-05.57.52:652][ 71]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050570s)
+[2015.06.18-05.57.52:654][ 71]LogAIModule: Creating AISystem for world mp_shipment
+[2015.06.18-05.57.52:654][ 71]LogPlayLevel: PIE: World Init took: (0.001922s)
+[2015.06.18-05.57.52:655][ 71]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/mp_shipment.mp_shipment to /Game/UEDPIE_0_mp_shipment.mp_shipment (0.052812s)
+[2015.06.18-05.57.52:729][ 71]LogInit: XAudio2 using 'Speakers (C-Media PCI Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.06.18-05.57.52:740][ 71]LogInit: FAudioDevice initialized.
+[2015.06.18-05.57.52:803][ 71]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.18-05.57.52:817][ 71]LogWorld: Bringing World /Game/UEDPIE_0_mp_shipment.mp_shipment up for play (max tick rate 0) at 2015.06.18-00.57.52
+[2015.06.18-05.57.52:818][ 71]LogActor:Warning: GameSession /Game/UEDPIE_0_mp_shipment.mp_shipment:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.18-05.57.52:818][ 71]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_mp_shipment.mp_shipment:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.18-05.57.52:822][ 71]LogWorld: Bringing up level for play took: 0.016169
+[2015.06.18-05.57.52:828][ 71]PIE: Info Play in editor start time for /Game/UEDPIE_0_mp_shipment -0.649
+[2015.06.18-05.59.41:387][208]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F7E477D80
+[2015.06.18-05.59.42:895][267]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2015.06.18-05.59.46:932][409]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.18-05.59.46:932][409]PIE: New page: PIE session: mp_shipment (Jun 17, 2015, 7:59:46 PM)
+[2015.06.18-05.59.46:933][409]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_mp_shipment
+[2015.06.18-05.59.46:990][409]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057009s)
+[2015.06.18-05.59.46:991][409]LogAIModule: Creating AISystem for world mp_shipment
+[2015.06.18-05.59.46:992][409]LogPlayLevel: PIE: World Init took: (0.001879s)
+[2015.06.18-05.59.46:992][409]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/mp_shipment.mp_shipment to /Game/UEDPIE_0_mp_shipment.mp_shipment (0.059232s)
+[2015.06.18-05.59.47:051][409]LogInit: XAudio2 using 'Speakers (C-Media PCI Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.06.18-05.59.47:058][409]LogInit: FAudioDevice initialized.
+[2015.06.18-05.59.47:120][409]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.18-05.59.47:134][409]LogWorld: Bringing World /Game/UEDPIE_0_mp_shipment.mp_shipment up for play (max tick rate 0) at 2015.06.18-00.59.47
+[2015.06.18-05.59.47:134][409]LogActor:Warning: GameSession /Game/UEDPIE_0_mp_shipment.mp_shipment:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.18-05.59.47:135][409]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_mp_shipment.mp_shipment:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.18-05.59.47:140][409]LogWorld: Bringing up level for play took: 0.018017
+[2015.06.18-05.59.47:148][409]PIE: Info Play in editor start time for /Game/UEDPIE_0_mp_shipment -0.329
+[2015.06.18-06.03.11:974][423]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F07845800
+[2015.06.18-06.03.24:317][852]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.06.18-06.03.26:130][913]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.06.18-06.03.30:036][ 39]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.06.18-06.03.59:467][879]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.18-06.03.59:467][879]PIE: New page: SIE session: mp_shipment (Jun 17, 2015, 8:03:59 PM)
+[2015.06.18-06.03.59:468][879]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_mp_shipment
+[2015.06.18-06.03.59:520][879]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052695s)
+[2015.06.18-06.03.59:521][879]LogAIModule: Creating AISystem for world mp_shipment
+[2015.06.18-06.03.59:522][879]LogPlayLevel: PIE: World Init took: (0.001936s)
+[2015.06.18-06.03.59:523][879]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/mp_shipment.mp_shipment to /Game/UEDPIE_0_mp_shipment.mp_shipment (0.054935s)
+[2015.06.18-06.03.59:590][879]LogSelection:Warning: PIE object was selected: "Brush /Game/UEDPIE_0_mp_shipment.mp_shipment:PersistentLevel.CylinderBrush20"
+[2015.06.18-06.03.59:610][879]LogInit: XAudio2 using 'Speakers (C-Media PCI Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.06.18-06.03.59:615][879]LogInit: FAudioDevice initialized.
+[2015.06.18-06.03.59:676][879]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.18-06.03.59:694][879]LogWorld: Bringing World /Game/UEDPIE_0_mp_shipment.mp_shipment up for play (max tick rate 0) at 2015.06.18-01.03.59
+[2015.06.18-06.03.59:694][879]LogActor:Warning: GameSession /Game/UEDPIE_0_mp_shipment.mp_shipment:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.18-06.03.59:695][879]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_mp_shipment.mp_shipment:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.18-06.03.59:702][879]LogWorld: Bringing up level for play took: 0.023604
+[2015.06.18-06.03.59:707][879]PIE: Info Play in editor start time for /Game/UEDPIE_0_mp_shipment 0.229
+[2015.06.18-06.03.59:800][879]LogSelection:Warning: PIE object was selected: "Brush /Game/UEDPIE_0_mp_shipment.mp_shipment:PersistentLevel.CylinderBrush20"
+[2015.06.18-06.04.09:052][ 87]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.04.09:052][ 87]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.04.09:669][100]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.04.09:669][100]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.04.28:336][108]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: 0 [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Editor\UnrealEd\Private\EditorServer.cpp] [Line: 1706]
+Rebuild BSP ignored. Not in a transaction
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ffde115a846} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ffde0ff4071} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ffde0ff4323} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::RebuildAlteredBSP() {0x00007ffddbf57a84} + 43 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::TrackingStopped() {0x00007ffddbfe57e7} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FMouseDeltaTracker::EndTracking() {0x00007ffddc0287bd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorViewportClient::StopTracking() {0x00007ffddbf6bb7a} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorViewportClient::InputKey() {0x00007ffddbf3fffd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::InputKey() {0x00007ffddbfc1072} + 61 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FSceneViewport::OnMouseButtonUp() {0x00007ffddec81ccd} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SViewport::OnMouseButtonUp() {0x00007ffddd881d45} + 184 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!<lambda_de96dc3471181973108233c6db1f9843>::operator()() {0x00007ffddd744ccc} + 24 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_de96dc3471181973108233c6db1f9843> >() {0x00007ffddd6fd167} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() {0x00007ffddd7b8617} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() {0x00007ffddd7a5d84} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() {0x00007ffde114d3cd} + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() {0x00007ffde1134601} + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() {0x00007ffde114e9df} + 44 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() {0x00007ffde112e1ea} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+USER32.dll {0x00007ffe0b11250d} + 0 bytes
+USER32.dll {0x00007ffe0b112367} + 0 bytes
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() {0x00007ffde114fd96} + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff754943c7a} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7549349cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff754934a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7549465b9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7549475b9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ffe0a7013d2} + 0 bytes
+ntdll.dll {0x00007ffe0b415444} + 0 bytes
+ntdll.dll {0x00007ffe0b415444} + 0 bytes
+
+[2015.06.18-06.05.04:862][695]LogSelection:Warning: PIE object was selected: "Brush /Game/UEDPIE_0_mp_shipment.mp_shipment:PersistentLevel.CylinderBrush20"
+[2015.06.18-06.05.11:160][813]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.11:160][813]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.11:482][819]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.11:482][819]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.11:803][825]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: 0 [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Editor\UnrealEd\Private\EditorServer.cpp] [Line: 1706]
+Rebuild BSP ignored. Not in a transaction
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ffde115a846} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ffde0ff4071} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ffde0ff4323} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::RebuildAlteredBSP() {0x00007ffddbf57a84} + 43 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::TrackingStopped() {0x00007ffddbfe57e7} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FMouseDeltaTracker::EndTracking() {0x00007ffddc0287bd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorViewportClient::StopTracking() {0x00007ffddbf6bb7a} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorViewportClient::InputKey() {0x00007ffddbf3fffd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::InputKey() {0x00007ffddbfc1072} + 61 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FSceneViewport::OnMouseButtonUp() {0x00007ffddec81ccd} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SViewport::OnMouseButtonUp() {0x00007ffddd881d45} + 184 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!<lambda_de96dc3471181973108233c6db1f9843>::operator()() {0x00007ffddd744ccc} + 24 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_de96dc3471181973108233c6db1f9843> >() {0x00007ffddd6fd167} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() {0x00007ffddd7b8617} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() {0x00007ffddd7a5d84} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() {0x00007ffde114d3cd} + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() {0x00007ffde1134601} + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() {0x00007ffde114e9df} + 44 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() {0x00007ffde112e1ea} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+USER32.dll {0x00007ffe0b11250d} + 0 bytes
+USER32.dll {0x00007ffe0b112367} + 0 bytes
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() {0x00007ffde114fd96} + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff754943c7a} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7549349cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff754934a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7549465b9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7549475b9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ffe0a7013d2} + 0 bytes
+ntdll.dll {0x00007ffe0b415444} + 0 bytes
+ntdll.dll {0x00007ffe0b415444} + 0 bytes
+
+[2015.06.18-06.05.13:206][864]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.13:206][864]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.13:261][865]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.13:261][865]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.13:312][866]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.13:312][866]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.13:371][867]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.13:371][867]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.13:504][869]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: 0 [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Editor\UnrealEd\Private\EditorServer.cpp] [Line: 1706]
+Rebuild BSP ignored. Not in a transaction
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ffde115a846} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ffde0ff4071} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ffde0ff4323} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::RebuildAlteredBSP() {0x00007ffddbf57a84} + 43 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::TrackingStopped() {0x00007ffddbfe57e7} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FMouseDeltaTracker::EndTracking() {0x00007ffddc0287bd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorViewportClient::StopTracking() {0x00007ffddbf6bb7a} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorViewportClient::InputKey() {0x00007ffddbf3fffd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::InputKey() {0x00007ffddbfc1072} + 61 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FSceneViewport::OnMouseButtonUp() {0x00007ffddec81ccd} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SViewport::OnMouseButtonUp() {0x00007ffddd881d45} + 184 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!<lambda_de96dc3471181973108233c6db1f9843>::operator()() {0x00007ffddd744ccc} + 24 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_de96dc3471181973108233c6db1f9843> >() {0x00007ffddd6fd167} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() {0x00007ffddd7b8617} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() {0x00007ffddd7a5d84} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() {0x00007ffde114d3cd} + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() {0x00007ffde1134601} + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() {0x00007ffde114e9df} + 44 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() {0x00007ffde112e1ea} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+USER32.dll {0x00007ffe0b11250d} + 0 bytes
+USER32.dll {0x00007ffe0b112367} + 0 bytes
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() {0x00007ffde114fd96} + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff754943c7a} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7549349cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff754934a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7549465b9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7549475b9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ffe0a7013d2} + 0 bytes
+ntdll.dll {0x00007ffe0b415444} + 0 bytes
+ntdll.dll {0x00007ffe0b415444} + 0 bytes
+
+[2015.06.18-06.05.14:507][896]LogSelection:Warning: PIE object was selected: "Brush /Game/UEDPIE_0_mp_shipment.mp_shipment:PersistentLevel.CylinderBrush20"
+[2015.06.18-06.05.16:996][960]LogSelection:Warning: PIE object was selected: "Brush /Game/UEDPIE_0_mp_shipment.mp_shipment:PersistentLevel.CylinderBrush20"
+[2015.06.18-06.05.17:627][977]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.17:627][977]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.17:667][978]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.17:668][978]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.17:712][979]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.17:712][979]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.17:756][980]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.17:756][980]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.17:796][981]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.17:796][981]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.17:858][982]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: 0 [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Editor\UnrealEd\Private\EditorServer.cpp] [Line: 1706]
+Rebuild BSP ignored. Not in a transaction
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ffde115a846} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ffde0ff4071} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ffde0ff4323} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::RebuildAlteredBSP() {0x00007ffddbf57a84} + 43 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::TrackingStopped() {0x00007ffddbfe57e7} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FMouseDeltaTracker::EndTracking() {0x00007ffddc0287bd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorViewportClient::StopTracking() {0x00007ffddbf6bb7a} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorViewportClient::InputKey() {0x00007ffddbf3fffd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::InputKey() {0x00007ffddbfc1072} + 61 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FSceneViewport::OnMouseButtonUp() {0x00007ffddec81ccd} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SViewport::OnMouseButtonUp() {0x00007ffddd881d45} + 184 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!<lambda_de96dc3471181973108233c6db1f9843>::operator()() {0x00007ffddd744ccc} + 24 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_de96dc3471181973108233c6db1f9843> >() {0x00007ffddd6fd167} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() {0x00007ffddd7b8617} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() {0x00007ffddd7a5d84} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() {0x00007ffde114d3cd} + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() {0x00007ffde1134601} + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() {0x00007ffde114e9df} + 44 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() {0x00007ffde112e1ea} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+USER32.dll {0x00007ffe0b11250d} + 0 bytes
+USER32.dll {0x00007ffe0b112367} + 0 bytes
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() {0x00007ffde114fd96} + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff754943c7a} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7549349cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff754934a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7549465b9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7549475b9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ffe0a7013d2} + 0 bytes
+ntdll.dll {0x00007ffe0b415444} + 0 bytes
+ntdll.dll {0x00007ffe0b415444} + 0 bytes
+
+[2015.06.18-06.05.19:665][ 25]LogSelection:Warning: PIE object was selected: "Brush /Game/UEDPIE_0_mp_shipment.mp_shipment:PersistentLevel.CylinderBrush2"
+[2015.06.18-06.05.22:245][ 82]PIE:Warning: Warning Mobility of CylinderBrush2 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.22:245][ 82]PIE:Warning: Warning Mobility of CylinderBrush2 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.22:309][ 83]PIE:Warning: Warning Mobility of CylinderBrush2 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.22:309][ 83]PIE:Warning: Warning Mobility of CylinderBrush2 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.22:361][ 84]PIE:Warning: Warning Mobility of CylinderBrush2 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.22:361][ 84]PIE:Warning: Warning Mobility of CylinderBrush2 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.22:478][ 86]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: 0 [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Editor\UnrealEd\Private\EditorServer.cpp] [Line: 1706]
+Rebuild BSP ignored. Not in a transaction
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ffde115a846} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ffde0ff4071} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ffde0ff4323} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::RebuildAlteredBSP() {0x00007ffddbf57a84} + 43 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::TrackingStopped() {0x00007ffddbfe57e7} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FMouseDeltaTracker::EndTracking() {0x00007ffddc0287bd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorViewportClient::StopTracking() {0x00007ffddbf6bb7a} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorViewportClient::InputKey() {0x00007ffddbf3fffd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::InputKey() {0x00007ffddbfc1072} + 61 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FSceneViewport::OnMouseButtonUp() {0x00007ffddec81ccd} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SViewport::OnMouseButtonUp() {0x00007ffddd881d45} + 184 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!<lambda_de96dc3471181973108233c6db1f9843>::operator()() {0x00007ffddd744ccc} + 24 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_de96dc3471181973108233c6db1f9843> >() {0x00007ffddd6fd167} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() {0x00007ffddd7b8617} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() {0x00007ffddd7a5d84} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() {0x00007ffde114d3cd} + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() {0x00007ffde1134601} + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() {0x00007ffde114e9df} + 44 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() {0x00007ffde112e1ea} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+USER32.dll {0x00007ffe0b11250d} + 0 bytes
+USER32.dll {0x00007ffe0b112367} + 0 bytes
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() {0x00007ffde114fd96} + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff754943c7a} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7549349cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff754934a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7549465b9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7549475b9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ffe0a7013d2} + 0 bytes
+ntdll.dll {0x00007ffe0b415444} + 0 bytes
+ntdll.dll {0x00007ffe0b415444} + 0 bytes
+
+[2015.06.18-06.05.26:533][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mp_shipment" FILE="../../../../../../Unreal Projects/BiggerMaps/Content/mp_shipment.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.06.18-06.05.27:055][192]LogSavePackage: Save=237.618011ms
+[2015.06.18-06.05.27:055][192]LogSavePackage: Moving '../../../../../../Unreal Projects/BiggerMaps/Saved/mp_shipment7167DF5C446D407DE4D8FE9660F45AA7.tmp' to '../../../../../../Unreal Projects/BiggerMaps/Content/mp_shipment.umap'
+[2015.06.18-06.05.27:164][192]LogFileHelpers: Saving map 'mp_shipment' took 0.891
+[2015.06.18-06.05.28:501][236]LogSelection:Warning: PIE object was selected: "Brush /Game/UEDPIE_0_mp_shipment.mp_shipment:PersistentLevel.CylinderBrush20"
+[2015.06.18-06.05.29:469][264]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.29:469][264]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.29:520][265]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.29:520][265]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.29:630][267]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: 0 [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Editor\UnrealEd\Private\EditorServer.cpp] [Line: 1706]
+Rebuild BSP ignored. Not in a transaction
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ffde115a846} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ffde0ff4071} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ffde0ff4323} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::RebuildAlteredBSP() {0x00007ffddbf57a84} + 43 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::TrackingStopped() {0x00007ffddbfe57e7} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FMouseDeltaTracker::EndTracking() {0x00007ffddc0287bd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorViewportClient::StopTracking() {0x00007ffddbf6bb7a} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorViewportClient::InputKey() {0x00007ffddbf3fffd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::InputKey() {0x00007ffddbfc1072} + 61 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FSceneViewport::OnMouseButtonUp() {0x00007ffddec81ccd} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SViewport::OnMouseButtonUp() {0x00007ffddd881d45} + 184 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!<lambda_de96dc3471181973108233c6db1f9843>::operator()() {0x00007ffddd744ccc} + 24 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_de96dc3471181973108233c6db1f9843> >() {0x00007ffddd6fd167} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() {0x00007ffddd7b8617} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() {0x00007ffddd7a5d84} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() {0x00007ffde114d3cd} + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() {0x00007ffde1134601} + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() {0x00007ffde114e9df} + 44 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() {0x00007ffde112e1ea} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+USER32.dll {0x00007ffe0b11250d} + 0 bytes
+USER32.dll {0x00007ffe0b112367} + 0 bytes
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() {0x00007ffde114fd96} + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff754943c7a} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7549349cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff754934a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7549465b9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7549475b9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ffe0a7013d2} + 0 bytes
+ntdll.dll {0x00007ffe0b415444} + 0 bytes
+ntdll.dll {0x00007ffe0b415444} + 0 bytes
+
+[2015.06.18-06.05.30:656][297]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.30:656][297]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.30:711][298]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.30:711][298]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.30:768][299]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: 0 [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Editor\UnrealEd\Private\EditorServer.cpp] [Line: 1706]
+Rebuild BSP ignored. Not in a transaction
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ffde115a846} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ffde0ff4071} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ffde0ff4323} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::RebuildAlteredBSP() {0x00007ffddbf57a84} + 43 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::TrackingStopped() {0x00007ffddbfe57e7} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FMouseDeltaTracker::EndTracking() {0x00007ffddc0287bd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorViewportClient::StopTracking() {0x00007ffddbf6bb7a} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorViewportClient::InputKey() {0x00007ffddbf3fffd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::InputKey() {0x00007ffddbfc1072} + 61 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FSceneViewport::OnMouseButtonUp() {0x00007ffddec81ccd} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SViewport::OnMouseButtonUp() {0x00007ffddd881d45} + 184 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!<lambda_de96dc3471181973108233c6db1f9843>::operator()() {0x00007ffddd744ccc} + 24 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_de96dc3471181973108233c6db1f9843> >() {0x00007ffddd6fd167} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() {0x00007ffddd7b8617} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() {0x00007ffddd7a5d84} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() {0x00007ffde114d3cd} + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() {0x00007ffde1134601} + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() {0x00007ffde114e9df} + 44 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() {0x00007ffde112e1ea} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+USER32.dll {0x00007ffe0b11250d} + 0 bytes
+USER32.dll {0x00007ffe0b112367} + 0 bytes
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() {0x00007ffde114fd96} + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff754943c7a} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7549349cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff754934a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7549465b9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7549475b9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ffe0a7013d2} + 0 bytes
+ntdll.dll {0x00007ffe0b415444} + 0 bytes
+ntdll.dll {0x00007ffe0b415444} + 0 bytes
+
+[2015.06.18-06.05.31:791][332]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.31:791][332]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.31:839][333]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.31:840][333]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.31:884][334]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.31:884][334]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.31:952][335]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: 0 [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Editor\UnrealEd\Private\EditorServer.cpp] [Line: 1706]
+Rebuild BSP ignored. Not in a transaction
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ffde115a846} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ffde0ff4071} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ffde0ff4323} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::RebuildAlteredBSP() {0x00007ffddbf57a84} + 43 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::TrackingStopped() {0x00007ffddbfe57e7} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FMouseDeltaTracker::EndTracking() {0x00007ffddc0287bd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorViewportClient::StopTracking() {0x00007ffddbf6bb7a} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorViewportClient::InputKey() {0x00007ffddbf3fffd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::InputKey() {0x00007ffddbfc1072} + 61 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FSceneViewport::OnMouseButtonUp() {0x00007ffddec81ccd} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SViewport::OnMouseButtonUp() {0x00007ffddd881d45} + 184 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!<lambda_de96dc3471181973108233c6db1f9843>::operator()() {0x00007ffddd744ccc} + 24 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_de96dc3471181973108233c6db1f9843> >() {0x00007ffddd6fd167} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() {0x00007ffddd7b8617} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() {0x00007ffddd7a5d84} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() {0x00007ffde114d3cd} + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() {0x00007ffde1134601} + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() {0x00007ffde114e9df} + 44 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() {0x00007ffde112e1ea} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+USER32.dll {0x00007ffe0b11250d} + 0 bytes
+USER32.dll {0x00007ffe0b112367} + 0 bytes
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() {0x00007ffde114fd96} + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff754943c7a} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7549349cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff754934a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7549465b9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7549475b9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ffe0a7013d2} + 0 bytes
+ntdll.dll {0x00007ffe0b415444} + 0 bytes
+ntdll.dll {0x00007ffe0b415444} + 0 bytes
+
+[2015.06.18-06.05.32:672][354]LogSelection:Warning: PIE object was selected: "Brush /Game/UEDPIE_0_mp_shipment.mp_shipment:PersistentLevel.BoxBrush23"
+[2015.06.18-06.05.34:118][393]PIE:Warning: Warning Mobility of BoxBrush23 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.34:118][393]PIE:Warning: Warning Mobility of BoxBrush23 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.34:163][394]PIE:Warning: Warning Mobility of BoxBrush23 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.34:163][394]PIE:Warning: Warning Mobility of BoxBrush23 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.34:213][395]PIE:Warning: Warning Mobility of BoxBrush23 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.34:213][395]PIE:Warning: Warning Mobility of BoxBrush23 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.34:255][396]PIE:Warning: Warning Mobility of BoxBrush23 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.34:255][396]PIE:Warning: Warning Mobility of BoxBrush23 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.05.34:317][397]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: 0 [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Editor\UnrealEd\Private\EditorServer.cpp] [Line: 1706]
+Rebuild BSP ignored. Not in a transaction
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ffde115a846} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ffde0ff4071} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ffde0ff4323} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::RebuildAlteredBSP() {0x00007ffddbf57a84} + 43 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::TrackingStopped() {0x00007ffddbfe57e7} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FMouseDeltaTracker::EndTracking() {0x00007ffddc0287bd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorViewportClient::StopTracking() {0x00007ffddbf6bb7a} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorViewportClient::InputKey() {0x00007ffddbf3fffd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::InputKey() {0x00007ffddbfc1072} + 61 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FSceneViewport::OnMouseButtonUp() {0x00007ffddec81ccd} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SViewport::OnMouseButtonUp() {0x00007ffddd881d45} + 184 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!<lambda_de96dc3471181973108233c6db1f9843>::operator()() {0x00007ffddd744ccc} + 24 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_de96dc3471181973108233c6db1f9843> >() {0x00007ffddd6fd167} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() {0x00007ffddd7b8617} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() {0x00007ffddd7a5d84} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() {0x00007ffde114d3cd} + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() {0x00007ffde1134601} + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() {0x00007ffde114e9df} + 44 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() {0x00007ffde112e1ea} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+USER32.dll {0x00007ffe0b11250d} + 0 bytes
+USER32.dll {0x00007ffe0b112367} + 0 bytes
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() {0x00007ffde114fd96} + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff754943c7a} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7549349cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff754934a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7549465b9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7549475b9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ffe0a7013d2} + 0 bytes
+ntdll.dll {0x00007ffe0b415444} + 0 bytes
+ntdll.dll {0x00007ffe0b415444} + 0 bytes
+
+[2015.06.18-06.06.04:187][ 29]LogSelection:Warning: PIE object was selected: "Brush /Game/UEDPIE_0_mp_shipment.mp_shipment:PersistentLevel.CylinderBrush20"
+[2015.06.18-06.06.05:057][ 49]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.06.05:057][ 49]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.06.05:110][ 50]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.06.05:110][ 50]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.06.05:157][ 51]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.06.05:158][ 51]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.06.05:219][ 52]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: 0 [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Editor\UnrealEd\Private\EditorServer.cpp] [Line: 1706]
+Rebuild BSP ignored. Not in a transaction
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ffde115a846} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ffde0ff4071} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ffde0ff4323} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::RebuildAlteredBSP() {0x00007ffddbf57a84} + 43 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::TrackingStopped() {0x00007ffddbfe57e7} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FMouseDeltaTracker::EndTracking() {0x00007ffddc0287bd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorViewportClient::StopTracking() {0x00007ffddbf6bb7a} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorViewportClient::InputKey() {0x00007ffddbf3fffd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::InputKey() {0x00007ffddbfc1072} + 61 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FSceneViewport::OnMouseButtonUp() {0x00007ffddec81ccd} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SViewport::OnMouseButtonUp() {0x00007ffddd881d45} + 184 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!<lambda_de96dc3471181973108233c6db1f9843>::operator()() {0x00007ffddd744ccc} + 24 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_de96dc3471181973108233c6db1f9843> >() {0x00007ffddd6fd167} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() {0x00007ffddd7b8617} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() {0x00007ffddd7a5d84} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() {0x00007ffde114d3cd} + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() {0x00007ffde1134601} + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() {0x00007ffde114e9df} + 44 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() {0x00007ffde112e1ea} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+USER32.dll {0x00007ffe0b11250d} + 0 bytes
+USER32.dll {0x00007ffe0b112367} + 0 bytes
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() {0x00007ffde114fd96} + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff754943c7a} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7549349cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff754934a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7549465b9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7549475b9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ffe0a7013d2} + 0 bytes
+ntdll.dll {0x00007ffe0b415444} + 0 bytes
+ntdll.dll {0x00007ffe0b415444} + 0 bytes
+
+[2015.06.18-06.06.06:490][ 88]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.06.06:490][ 88]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.06.06:547][ 89]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.06.06:548][ 89]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.06.06:599][ 90]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.06.06:599][ 90]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.06.06:651][ 91]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.06.06:652][ 91]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.06.06:698][ 92]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.06.06:698][ 92]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.06.06:768][ 93]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: 0 [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Editor\UnrealEd\Private\EditorServer.cpp] [Line: 1706]
+Rebuild BSP ignored. Not in a transaction
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ffde115a846} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ffde0ff4071} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ffde0ff4323} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::RebuildAlteredBSP() {0x00007ffddbf57a84} + 43 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::TrackingStopped() {0x00007ffddbfe57e7} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FMouseDeltaTracker::EndTracking() {0x00007ffddc0287bd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorViewportClient::StopTracking() {0x00007ffddbf6bb7a} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorViewportClient::InputKey() {0x00007ffddbf3fffd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::InputKey() {0x00007ffddbfc1072} + 61 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FSceneViewport::OnMouseButtonUp() {0x00007ffddec81ccd} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SViewport::OnMouseButtonUp() {0x00007ffddd881d45} + 184 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!<lambda_de96dc3471181973108233c6db1f9843>::operator()() {0x00007ffddd744ccc} + 24 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_de96dc3471181973108233c6db1f9843> >() {0x00007ffddd6fd167} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() {0x00007ffddd7b8617} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() {0x00007ffddd7a5d84} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() {0x00007ffde114d3cd} + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() {0x00007ffde1134601} + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() {0x00007ffde114e9df} + 44 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() {0x00007ffde112e1ea} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+USER32.dll {0x00007ffe0b11250d} + 0 bytes
+USER32.dll {0x00007ffe0b112367} + 0 bytes
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() {0x00007ffde114fd96} + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff754943c7a} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7549349cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff754934a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7549465b9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7549475b9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ffe0a7013d2} + 0 bytes
+ntdll.dll {0x00007ffe0b415444} + 0 bytes
+ntdll.dll {0x00007ffe0b415444} + 0 bytes
+
+[2015.06.18-06.06.07:691][119]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.06.07:691][119]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.06.07:742][120]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.06.07:742][120]PIE:Warning: Warning Mobility of CylinderBrush20 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2015.06.18-06.06.07:806][121]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: 0 [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Editor\UnrealEd\Private\EditorServer.cpp] [Line: 1706]
+Rebuild BSP ignored. Not in a transaction
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ffde115a846} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ffde0ff4071} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ffde0ff4323} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::RebuildAlteredBSP() {0x00007ffddbf57a84} + 43 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::TrackingStopped() {0x00007ffddbfe57e7} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FMouseDeltaTracker::EndTracking() {0x00007ffddc0287bd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorViewportClient::StopTracking() {0x00007ffddbf6bb7a} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorViewportClient::InputKey() {0x00007ffddbf3fffd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::InputKey() {0x00007ffddbfc1072} + 61 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FSceneViewport::OnMouseButtonUp() {0x00007ffddec81ccd} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SViewport::OnMouseButtonUp() {0x00007ffddd881d45} + 184 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!<lambda_de96dc3471181973108233c6db1f9843>::operator()() {0x00007ffddd744ccc} + 24 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_de96dc3471181973108233c6db1f9843> >() {0x00007ffddd6fd167} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() {0x00007ffddd7b8617} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() {0x00007ffddd7a5d84} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() {0x00007ffde114d3cd} + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() {0x00007ffde1134601} + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() {0x00007ffde114e9df} + 44 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() {0x00007ffde112e1ea} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+USER32.dll {0x00007ffe0b11250d} + 0 bytes
+USER32.dll {0x00007ffe0b112367} + 0 bytes
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() {0x00007ffde114fd96} + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff754943c7a} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7549349cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff754934a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7549465b9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7549475b9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ffe0a7013d2} + 0 bytes
+ntdll.dll {0x00007ffe0b415444} + 0 bytes
+ntdll.dll {0x00007ffe0b415444} + 0 bytes
+
+[2015.06.18-06.06.11:284][203]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F14F25580
+[2015.06.18-06.06.11:554][204]Cmd: QUIT_EDITOR
+[2015.06.18-06.06.12:876][204]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.06.18-06.06.13:309][204]LogExit: Preparing to exit.
+[2015.06.18-06.06.14:685][204]LogExit: Editor shut down
+[2015.06.18-06.06.14:697][204]LogExit: Transaction tracking system shut down
+[2015.06.18-06.06.14:705][204]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F2F9E7880
+[2015.06.18-06.06.14:707][204]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F7E272160
+[2015.06.18-06.06.14:713][204]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F314FFD80
+[2015.06.18-06.06.17:122][204]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F2CF0AAC0
+[2015.06.18-06.06.17:122][204]LogExit: Object subsystem successfully closed.
+[2015.06.18-06.06.20:347][204]LogModuleManager: Shutting down and abandoning module CrashTracker (190)
+[2015.06.18-06.06.20:347][204]LogModuleManager: Shutting down and abandoning module SceneOutliner (189)
+[2015.06.18-06.06.20:347][204]LogModuleManager: Shutting down and abandoning module SuperSearch (188)
+[2015.06.18-06.06.20:347][204]LogModuleManager: Shutting down and abandoning module WidgetCarousel (187)
+[2015.06.18-06.06.20:361][204]LogModuleManager: Shutting down and abandoning module AddContentDialog (186)
+[2015.06.18-06.06.20:386][204]LogModuleManager: Shutting down and abandoning module EditorWidgets (185)
+[2015.06.18-06.06.20:386][204]LogModuleManager: Shutting down and abandoning module CollectionManager (184)
+[2015.06.18-06.06.20:414][204]LogModuleManager: Shutting down and abandoning module StatsViewer (183)
+[2015.06.18-06.06.20:437][204]LogModuleManager: Shutting down and abandoning module FoliageEdit (182)
+[2015.06.18-06.06.20:447][204]LogModuleManager: Shutting down and abandoning module LandscapeEditor (181)
+[2015.06.18-06.06.20:472][204]LogModuleManager: Shutting down and abandoning module ActorPickerMode (180)
+[2015.06.18-06.06.20:472][204]LogModuleManager: Shutting down and abandoning module GeometryMode (179)
+[2015.06.18-06.06.20:472][204]LogModuleManager: Shutting down and abandoning module TextureAlignMode (178)
+[2015.06.18-06.06.20:472][204]LogModuleManager: Shutting down and abandoning module BspMode (177)
+[2015.06.18-06.06.20:473][204]LogModuleManager: Shutting down and abandoning module PlacementMode (176)
+[2015.06.18-06.06.20:491][204]LogModuleManager: Shutting down and abandoning module AutomationWorker (175)
+[2015.06.18-06.06.20:491][204]LogModuleManager: Shutting down and abandoning module CharacterAI (174)
+[2015.06.18-06.06.20:491][204]LogModuleManager: Shutting down and abandoning module SmartSnapping (173)
+[2015.06.18-06.06.20:491][204]LogModuleManager: Shutting down and abandoning module ViewportSnapping (172)
+[2015.06.18-06.06.20:491][204]LogModuleManager: Shutting down and abandoning module LogVisualizer (171)
+[2015.06.18-06.06.20:523][204]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (170)
+[2015.06.18-06.06.20:534][204]LogModuleManager: Shutting down and abandoning module IntroTutorials (169)
+[2015.06.18-06.06.20:581][204]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (168)
+[2015.06.18-06.06.20:581][204]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (167)
+[2015.06.18-06.06.20:600][204]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (166)
+[2015.06.18-06.06.20:600][204]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (165)
+[2015.06.18-06.06.20:715][204]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (164)
+[2015.06.18-06.06.20:715][204]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (163)
+[2015.06.18-06.06.20:715][204]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (162)
+[2015.06.18-06.06.20:715][204]LogModuleManager: Shutting down and abandoning module MergeActors (161)
+[2015.06.18-06.06.20:737][204]LogModuleManager: Shutting down and abandoning module SizeMap (160)
+[2015.06.18-06.06.20:737][204]LogModuleManager: Shutting down and abandoning module TreeMap (159)
+[2015.06.18-06.06.20:756][204]LogModuleManager: Shutting down and abandoning module ReferenceViewer (158)
+[2015.06.18-06.06.20:756][204]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (157)
+[2015.06.18-06.06.20:768][204]LogModuleManager: Shutting down and abandoning module HardwareTargeting (156)
+[2015.06.18-06.06.20:768][204]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (155)
+[2015.06.18-06.06.20:788][204]LogModuleManager: Shutting down and abandoning module UndoHistory (154)
+[2015.06.18-06.06.20:815][204]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (153)
+[2015.06.18-06.06.20:838][204]LogModuleManager: Shutting down and abandoning module UserFeedback (152)
+[2015.06.18-06.06.20:838][204]LogModuleManager: Shutting down and abandoning module XmlParser (151)
+[2015.06.18-06.06.20:838][204]LogModuleManager: Shutting down and abandoning module Blutility (150)
+[2015.06.18-06.06.20:838][204]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (149)
+[2015.06.18-06.06.20:838][204]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (148)
+[2015.06.18-06.06.20:838][204]LogModuleManager: Shutting down and abandoning module InputBindingEditor (147)
+[2015.06.18-06.06.20:856][204]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (146)
+[2015.06.18-06.06.20:856][204]LogModuleManager: Shutting down and abandoning module SettingsEditor (145)
+[2015.06.18-06.06.20:884][204]LogModuleManager: Shutting down and abandoning module ProjectLauncher (144)
+[2015.06.18-06.06.20:902][204]LogModuleManager: Shutting down and abandoning module SessionFrontend (143)
+[2015.06.18-06.06.20:922][204]LogModuleManager: Shutting down and abandoning module ProfilerClient (142)
+[2015.06.18-06.06.20:939][204]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (141)
+[2015.06.18-06.06.20:940][204]LogModuleManager: Shutting down and abandoning module DeviceManager (140)
+[2015.06.18-06.06.20:955][204]LogModuleManager: Shutting down and abandoning module AutomationController (139)
+[2015.06.18-06.06.20:969][204]LogModuleManager: Shutting down and abandoning module AutomationWindow (138)
+[2015.06.18-06.06.20:985][204]LogModuleManager: Shutting down and abandoning module Layers (137)
+[2015.06.18-06.06.21:013][204]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (136)
+[2015.06.18-06.06.21:014][204]LogModuleManager: Shutting down and abandoning module DetailCustomizations (135)
+[2015.06.18-06.06.21:014][204]LogModuleManager: Shutting down and abandoning module PackagesDialog (134)
+[2015.06.18-06.06.21:014][204]LogModuleManager: Shutting down and abandoning module Persona (133)
+[2015.06.18-06.06.21:058][204]LogModuleManager: Shutting down and abandoning module Kismet (132)
+[2015.06.18-06.06.21:081][204]LogModuleManager: Shutting down and abandoning module GraphEditor (131)
+[2015.06.18-06.06.21:151][204]LogModuleManager: Shutting down and abandoning module ClassViewer (130)
+[2015.06.18-06.06.21:172][204]LogModuleManager: Shutting down and abandoning module Toolbox (129)
+[2015.06.18-06.06.21:173][204]LogModuleManager: Shutting down and abandoning module ModuleUI (128)
+[2015.06.18-06.06.21:188][204]LogModuleManager: Shutting down and abandoning module MovieSceneTools (127)
+[2015.06.18-06.06.21:208][204]LogModuleManager: Shutting down and abandoning module OutputLog (126)
+[2015.06.18-06.06.21:208][204]LogModuleManager: Shutting down and abandoning module GammaUI (125)
+[2015.06.18-06.06.21:226][204]LogModuleManager: Shutting down and abandoning module Documentation (124)
+[2015.06.18-06.06.21:227][204]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (123)
+[2015.06.18-06.06.21:244][204]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (122)
+[2015.06.18-06.06.21:244][204]LogModuleManager: Shutting down and abandoning module AnalyticsET (121)
+[2015.06.18-06.06.21:244][204]LogModuleManager: Shutting down and abandoning module Analytics (120)
+[2015.06.18-06.06.21:244][204]LogModuleManager: Shutting down and abandoning module AITestSuite (119)
+[2015.06.18-06.06.21:255][204]LogModuleManager: Shutting down and abandoning module GameplayDebugger (118)
+[2015.06.18-06.06.21:255][204]LogModuleManager: Shutting down and abandoning module AIModule (117)
+[2015.06.18-06.06.21:255][204]LogModuleManager: Shutting down and abandoning module ProfilerService (116)
+[2015.06.18-06.06.21:302][204]LogModuleManager: Shutting down and abandoning module TaskGraph (115)
+[2015.06.18-06.06.21:330][204]LogModuleManager: Shutting down and abandoning module SubstanceEditor (114)
+[2015.06.18-06.06.21:352][204]LogModuleManager: Shutting down and abandoning module SlateRemote (113)
+[2015.06.18-06.06.21:352][204]LogModuleManager: Shutting down and abandoning module SteamVRController (112)
+[2015.06.18-06.06.21:352][204]LogModuleManager: Shutting down and abandoning module SteamVR (111)
+[2015.06.18-06.06.21:352][204]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (110)
+[2015.06.18-06.06.21:352][204]LogModuleManager: Shutting down and abandoning module OculusRift (109)
+[2015.06.18-06.06.21:352][204]LogModuleManager: Shutting down and abandoning module LeapMotionController (108)
+[2015.06.18-06.06.21:435][204]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (107)
+[2015.06.18-06.06.21:435][204]LogModuleManager: Shutting down and abandoning module CableComponent (106)
+[2015.06.18-06.06.21:451][204]LogModuleManager: Shutting down and abandoning module MessagingDebugger (105)
+[2015.06.18-06.06.21:502][204]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (104)
+[2015.06.18-06.06.21:540][204]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (103)
+[2015.06.18-06.06.21:540][204]LogModuleManager: Shutting down and abandoning module PluginBrowser (102)
+[2015.06.18-06.06.21:549][204]LogModuleManager: Shutting down and abandoning module EpicSurvey (101)
+[2015.06.18-06.06.21:564][204]LogModuleManager: Shutting down and abandoning module DesktopPlatform (100)
+[2015.06.18-06.06.21:585][204]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (99)
+[2015.06.18-06.06.21:599][204]LogModuleManager: Shutting down and abandoning module UObjectPlugin (98)
+[2015.06.18-06.06.21:599][204]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (97)
+[2015.06.18-06.06.21:613][204]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (96)
+[2015.06.18-06.06.21:627][204]LogModuleManager: Shutting down and abandoning module SourceControl (95)
+[2015.06.18-06.06.21:639][204]LogModuleManager: Shutting down and abandoning module GitSourceControl (94)
+[2015.06.18-06.06.21:651][204]LogModuleManager: Shutting down and abandoning module BlankPlugin (93)
+[2015.06.18-06.06.21:651][204]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (92)
+[2015.06.18-06.06.21:651][204]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (91)
+[2015.06.18-06.06.21:651][204]LogModuleManager: Shutting down and abandoning module MeshPaint (90)
+[2015.06.18-06.06.21:659][204]LogModuleManager: Shutting down and abandoning module SlateReflector (89)
+[2015.06.18-06.06.21:730][204]LogModuleManager: Shutting down and abandoning module HotReload (88)
+[2015.06.18-06.06.21:730][204]LogModuleManager: Shutting down and abandoning module MainFrame (87)
+[2015.06.18-06.06.21:730][204]LogModuleManager: Shutting down and abandoning module LevelEditor (86)
+[2015.06.18-06.06.21:789][204]LogModuleManager: Shutting down and abandoning module ContentBrowser (85)
+[2015.06.18-06.06.21:792][204]LogModuleManager: Shutting down and abandoning module Paper2DEditor (84)
+[2015.06.18-06.06.21:831][204]LogModuleManager: Shutting down and abandoning module UdpMessaging (83)
+[2015.06.18-06.06.21:949][204]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (82)
+[2015.06.18-06.06.21:963][204]LogModuleManager: Shutting down and abandoning module AssetRegistry (81)
+[2015.06.18-06.06.22:256][204]LogModuleManager: Shutting down and abandoning module SubstanceCore (80)
+[2015.06.18-06.06.22:286][204]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.06.18-06.06.22:315][204]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.06.18-06.06.22:323][204]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.06.18-06.06.22:323][204]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.06.18-06.06.22:340][204]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.06.18-06.06.22:340][204]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.06.18-06.06.22:340][204]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.06.18-06.06.22:383][204]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.06.18-06.06.22:397][204]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.06.18-06.06.22:417][204]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.06.18-06.06.22:418][204]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.06.18-06.06.22:418][204]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.06.18-06.06.22:503][204]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.06.18-06.06.22:581][204]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.06.18-06.06.22:611][204]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.06.18-06.06.22:631][204]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.06.18-06.06.22:631][204]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.06.18-06.06.22:682][204]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.06.18-06.06.22:682][204]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.06.18-06.06.22:682][204]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.06.18-06.06.22:682][204]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.06.18-06.06.22:682][204]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.06.18-06.06.22:682][204]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.06.18-06.06.22:682][204]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.06.18-06.06.22:697][204]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.06.18-06.06.22:697][204]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.06.18-06.06.22:723][204]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.06.18-06.06.22:771][204]LogDerivedDataCache: Shutdown
+[2015.06.18-06.06.22:771][204]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.06.18-06.06.22:816][204]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.06.18-06.06.22:819][204]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.06.18-06.06.22:850][204]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.06.18-06.06.22:851][204]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.06.18-06.06.22:851][204]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.06.18-06.06.22:851][204]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.06.18-06.06.22:851][204]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.06.18-06.06.22:851][204]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.06.18-06.06.22:851][204]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.06.18-06.06.22:851][204]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.06.18-06.06.22:866][204]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.06.18-06.06.22:866][204]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.06.18-06.06.22:866][204]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.06.18-06.06.22:868][204]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.06.18-06.06.22:876][204]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.06.18-06.06.22:877][204]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.06.18-06.06.22:877][204]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.06.18-06.06.22:878][204]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.06.18-06.06.22:880][204]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.06.18-06.06.22:880][204]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.06.18-06.06.22:880][204]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.06.18-06.06.22:880][204]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.06.18-06.06.22:880][204]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.06.18-06.06.22:880][204]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.06.18-06.06.22:880][204]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.06.18-06.06.22:880][204]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.06.18-06.06.22:924][204]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.06.18-06.06.22:948][204]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.06.18-06.06.22:949][204]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.06.18-06.06.22:949][204]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.06.18-06.06.22:955][204]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.06.18-06.06.22:998][204]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.06.18-06.06.22:998][204]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.06.18-06.06.22:998][204]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.06.18-06.06.22:998][204]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.06.18-06.06.23:114][204]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.06.18-06.06.23:114][204]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.06.18-06.06.23:147][204]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.06.18-06.06.23:147][204]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.06.18-06.06.23:147][204]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.06.18-06.06.23:174][204]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.06.18-06.06.23:183][204]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.06.18-06.06.23:183][204]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.06.18-06.06.23:183][204]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.06.18-06.06.23:183][204]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.06.18-06.06.23:183][204]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.06.18-06.06.23:197][204]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.06.18-06.06.23:197][204]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.06.18-06.06.23:197][204]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.06.18-06.06.23:243][204]LogExit: Exiting.
+[2015.06.18-06.06.24:278][204]Log file closed, 06/18/15 01:06:24
